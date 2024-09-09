@@ -9188,11 +9188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ronnie\\Project\\NetCore\\appIngles\\appIngles\\appIngles.csproj",
+      "projectUniqueName": "C:\\Users\\Ronny\\Documents\\GitHub\\appIngles\\appIngles\\appIngles.csproj",
       "projectName": "appIngles",
-      "projectPath": "C:\\Ronnie\\Project\\NetCore\\appIngles\\appIngles\\appIngles.csproj",
+      "projectPath": "C:\\Users\\Ronny\\Documents\\GitHub\\appIngles\\appIngles\\appIngles.csproj",
       "packagesPath": "C:\\Users\\Ronny\\.nuget\\packages\\",
-      "outputPath": "C:\\Ronnie\\Project\\NetCore\\appIngles\\appIngles\\obj\\",
+      "outputPath": "C:\\Users\\Ronny\\Documents\\GitHub\\appIngles\\appIngles\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
