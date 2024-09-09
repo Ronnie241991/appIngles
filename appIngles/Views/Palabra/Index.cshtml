@@ -1,0 +1,108 @@
+﻿@model IEnumerable<appIngles.Models.Palabra>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idPalabra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.espaniol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ingles)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.inglesPro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.presente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.presentePro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.gerundio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.gerundioPro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pasado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pasadoPro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaModificacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idUsuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idPalabra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.espaniol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ingles)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.inglesPro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.presente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.presentePro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gerundio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gerundioPro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pasado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pasadoPro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaModificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idUsuario)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
