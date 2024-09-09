@@ -53,4 +53,4 @@ jobs:
           app-name: 'miappingles'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4EFBC8F2E2834F8880451E984C51B917 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57B751D16CDE4D929DA50056F61AA6CF }}
